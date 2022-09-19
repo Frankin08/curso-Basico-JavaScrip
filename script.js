@@ -15,8 +15,8 @@ console.log({
     input,
 })
 
-        //Modificar el h1 del codigo HTML
-        
+         //Modificar el h1 del codigo HTML
+
 //h1.innerHTML = 'Patito <br> XD';
 h1.innerText = 'Patito <br> XD'; //Solo texto no lee html
 
@@ -37,6 +37,6 @@ const img = document.createElement('img'); //creamos imagen
 img.setAttribute('src', 'http://imagenesparacelulares.net/wp-content/uploads/2015/10/memesgraciosos10-300x298.jpg');
 console.log(img);
 
-pid.innerHTML = ""; //Se elimina el contenido que habia eseelemento por un espacio vacio
+pid.innerHTML = ""; //Se elimina el contenido que habia es elemento por un espacio vacio
 pid.append(img); //insertando imagen en pid
 
